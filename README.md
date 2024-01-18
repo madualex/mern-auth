@@ -1,0 +1,1 @@
+This is a MERN application that focused on authentication and authorization. It could serve as an authentication template for mern applications. I used React Bootstrap for the UI, Redux Toolkit for state management, NodeJs and Express Js for the server.
