@@ -12,6 +12,12 @@ const port = process.env.PORT || 5000;
 connectDB();
 const app = express();
 
+// app.use(cors({
+//   origin: ["mern-auth-project.vercel.app"],
+//   methods: ["GET", "POST", "PUT"],
+//   credentials: true
+// }))
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }))
 
